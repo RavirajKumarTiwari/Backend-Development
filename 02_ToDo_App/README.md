@@ -116,3 +116,14 @@ In the context of `Node.js`, `process.exit(1)` is a method that allows you to **
 
 *Remember that using `process.exit(1)` should be done judiciously. It's essential to handle errors gracefully whenever possible, but in exceptional cases, this method provides a way to exit the process explicitly with an error status.*
 
+### Function of mangoose
+- `create()`: Creates one or more new documents.
+- `find()`: Retrieves documents based on specified conditions.
+- `findById()`: Finds a single document by its _id.
+- `findByIdAndDelete()`: Finds and deletes a single document by its _id.
+- `findByIdAndUpdate()`: Finds a document by its `_id`, updates it, and returns the modified document.
+
+---
+
+- `brew services start mongodb-community` Start the mongodb server
+- `mongod --config /opthomebrew/etc/mongod.conf` Start the mongodb server
